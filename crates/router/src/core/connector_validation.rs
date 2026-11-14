@@ -490,6 +490,10 @@ impl ConnectorAuthTypeAndMetadataValidation<'_> {
                 payme::transformers::PaymeAuthType::try_from(self.auth_type)?;
                 Ok(())
             }
+            api_enums::Connector::Payos => {
+                payos::transformers::PayosAuthType::try_from(self.auth_type)?;
+                Ok(())
+            }
             api_enums::Connector::Paypal => {
                 paypal::transformers::PaypalAuthType::try_from(self.auth_type)?;
                 paypal::transformers::PaypalConnectorMetadataObject::try_from(

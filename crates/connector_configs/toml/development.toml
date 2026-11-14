@@ -9902,3 +9902,13 @@ payment_method_type = "Discover"
 payment_method_type = "DinersClub"
 [[globalpayments_realex.debit]]
 payment_method_type = "UnionPay"
+
+[payos]
+[[payos.real_time_payment]]
+  payment_method_type = "viet_qr"
+[payos.connector_auth.SignatureKey]
+api_key = "x-api-key"
+key1 = "x-client-id"
+api_secret = "Checksum Key"
+[payos.connector_webhook_details]
+merchant_secret = "Checksum Key"

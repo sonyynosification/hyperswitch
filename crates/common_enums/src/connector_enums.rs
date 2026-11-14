@@ -169,6 +169,7 @@ pub enum Connector {
     Payme,
     Paynearme,
     Payone,
+    Payos,
     Paypal,
     Paysafe,
     Paystack,
@@ -449,6 +450,7 @@ impl Connector {
             | Self::Payme
             | Self::Paynearme
             | Self::Payone
+            | Self::Payos
             | Self::Paypal
             | Self::Paysafe
             | Self::Paystack
@@ -541,7 +543,7 @@ impl Connector {
     }
 
     pub fn should_acknowledge_webhook_for_resource_not_found_errors(self) -> bool {
-        matches!(self, Self::Adyenplatform | Self::Adyen)
+        matches!(self, Self::Adyenplatform | Self::Adyen | Self::Payos)
     }
 
     pub fn should_store_google_pay_pan_only_for_three_ds(

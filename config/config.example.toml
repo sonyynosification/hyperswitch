@@ -461,6 +461,7 @@ payload.base_url = "https://api.payload.com"
 payme.base_url = "https://sandbox.payme.io/"
 paynearme.base_url = "https://api.paynearme-sandbox.com/json-api"
 payone.base_url = "https://payment.preprod.payone.com/"
+payos.base_url = "https://api-merchant.payos.vn"
 paypal.base_url = "https://api-m.sandbox.paypal.com/"
 paysafe.base_url = "https://api.test.paysafe.com/paymenthub/"
 paystack.base_url = "https://api.paystack.co"
@@ -1081,6 +1082,9 @@ local_bank_redirect = { country = "AT,BE,EE,FI,FR,DE,IE,IT,LV,LT,LU,NL,PT,ES,GB,
 duit_now = { country = "MY", currency = "MYR" }
 fps = { country = "GB", currency = "GBP" }
 prompt_pay = { country = "TH", currency = "THB" }
+viet_qr = { country = "VN", currency = "VND" }
+
+[pm_filters.payos]
 viet_qr = { country = "VN", currency = "VND" }
 
 [pm_filters.coinbase]

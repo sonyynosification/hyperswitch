@@ -109,6 +109,7 @@ pub mod payload;
 pub mod payme;
 pub mod paynearme;
 pub mod payone;
+pub mod payos;
 pub mod paypal;
 pub mod paysafe;
 pub mod paystack;
@@ -196,15 +197,16 @@ pub use self::{
     nuvei::Nuvei, opayo::Opayo, opennode::Opennode, paybox::Paybox, payconex::Payconex,
     paydotcom::Paydotcom, payeezy::Payeezy, payjustnow::Payjustnow,
     payjustnowinstore::Payjustnowinstore, payload::Payload, payme::Payme, paynearme::Paynearme,
-    payone::Payone, paypal::Paypal, paysafe::Paysafe, paystack::Paystack, paytm::Paytm, payu::Payu,
-    peachpayments::Peachpayments, phonepe::Phonepe, placetopay::Placetopay, plaid::Plaid,
-    powertranz::Powertranz, prophetpay::Prophetpay, rapyd::Rapyd, razorpay::Razorpay,
-    recurly::Recurly, redsys::Redsys, revolv3::Revolv3, riskified::Riskified, saferpay::Saferpay,
-    sanlam_payshield::SanlamPayshield, santander::Santander, shift4::Shift4, sift::Sift,
-    signifyd::Signifyd, silverflow::Silverflow, square::Square, stax::Stax, stripe::Stripe,
-    stripebilling::Stripebilling, taxjar::Taxjar, tesouro::Tesouro, threedsecureio::Threedsecureio,
-    thunes::Thunes, tokenex::Tokenex, tokenio::Tokenio, truelayer::Truelayer, trustly::Trustly,
-    trustpay::Trustpay, trustpayments::Trustpayments, tsys::Tsys, tsys_transit::TsysTransit,
+    payone::Payone, payos::Payos, paypal::Paypal, paysafe::Paysafe, paystack::Paystack,
+    paytm::Paytm, payu::Payu, peachpayments::Peachpayments, phonepe::Phonepe,
+    placetopay::Placetopay, plaid::Plaid, powertranz::Powertranz, prophetpay::Prophetpay,
+    rapyd::Rapyd, razorpay::Razorpay, recurly::Recurly, redsys::Redsys, revolv3::Revolv3,
+    riskified::Riskified, saferpay::Saferpay, sanlam_payshield::SanlamPayshield,
+    santander::Santander, shift4::Shift4, sift::Sift, signifyd::Signifyd, silverflow::Silverflow,
+    square::Square, stax::Stax, stripe::Stripe, stripebilling::Stripebilling, taxjar::Taxjar,
+    tesouro::Tesouro, threedsecureio::Threedsecureio, thunes::Thunes, tokenex::Tokenex,
+    tokenio::Tokenio, truelayer::Truelayer, trustly::Trustly, trustpay::Trustpay,
+    trustpayments::Trustpayments, tsys::Tsys, tsys_transit::TsysTransit,
     unified_authentication_service::UnifiedAuthenticationService, vgs::Vgs, volt::Volt,
     wellsfargo::Wellsfargo, wellsfargopayout::Wellsfargopayout, wise::Wise, worldline::Worldline,
     worldpay::Worldpay, worldpaymodular::Worldpaymodular, worldpayraft::Worldpayraft,

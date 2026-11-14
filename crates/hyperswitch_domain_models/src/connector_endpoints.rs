@@ -124,6 +124,7 @@ pub struct Connectors {
     pub payme: ConnectorParams,
     pub paynearme: ConnectorParams,
     pub payone: ConnectorParams,
+    pub payos: ConnectorParams,
     pub paypal: ConnectorParams,
     pub paysafe: ConnectorParams,
     pub paystack: ConnectorParams,

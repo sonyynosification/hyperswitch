@@ -414,3 +414,8 @@ key2 = "key2"
 
 [globalpayments_heartland]
 api_key = "Secret API Key"
+
+[payos]
+api_key = "x-api-key"
+key1 = "x-client-id"
+api_secret = "checksum-key"

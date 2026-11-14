@@ -100,6 +100,7 @@ mod payjustnowinstore;
 mod payload;
 mod payme;
 mod payone;
+mod payos;
 mod paypal;
 mod paysafe;
 mod paystack;
