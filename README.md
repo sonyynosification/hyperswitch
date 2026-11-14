@@ -1,3 +1,3 @@
 <p align="center">
-    <h1 align="center">Composable Open-Source Payments Infrastructure</h1>
+    <h1 align="center">A fork of juspay/hyperswitch to provide Vietnam's payment providers</h1>
 </p>
