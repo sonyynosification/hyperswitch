@@ -1,4 +1,7 @@
 <p align="center">
+    This is a fork of juspay/hyperswitch, designed specifically for Vietnam's payment providers.
+</p>
+<p align="center">
   <img src="./docs/imgs/hyperswitch-logo-dark.svg#gh-dark-mode-only" alt="Hyperswitch-Logo" width="40%" />
   <img src="./docs/imgs/hyperswitch-logo-light.svg#gh-light-mode-only" alt="Hyperswitch-Logo" width="40%" />
 </p>
@@ -38,6 +41,3 @@
 
 <hr/>
 
-<details>
-  This is a fork of juspay/hyperswitch, designed specifically for Vietnam's payment providers.
-</details>
